@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="sign.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign up</title>
+  </head>
+  <body>
+    <section class="sign-login">
+      
+      <div class="wrapper__area" id="wrapper_Area">
+      
+        <div class="forms__area">
+
+          <!-- Sign Up Form -->
+          <form class="sign-up__form" id="signUpForm" method="post" action="">
+            <h1 class="form__title">Bienvenu !</h1>
+
+            <div class="input__group">
+              <label class="field">
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="username"
+                  id="signUpUsername"
+                />
+              </label>
+         
+              <small class="input__error_message"></small>
+            </div>
+
+            <div class="input__group">
+              <label class="field">
+                <input
+                  type="date"
+                  name="date_nais"
+                  placeholder="date de naissance"
+                  id="signUpDateNais"
+                />
+              </label>
+
+              <small class="input__error_message"></small>
+            </div>
+
+            <div class="input__group">
+              <label class="field">
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Email@example.com"
+                  id="signUpEmail"
+                />
+              </label>
+
+              <small class="input__error_message"></small>
+            </div>
+
+              <h2>Genre</h2>
+               <div class="input_radio">
+              <input type="radio" value="women" name="gender" checked >
+              <label for="women">femme</label>
+              <input type="radio" value="women" name="gender" >
+              <label for="women">homme</label>
+             </div>
+           
+              <h2>Choisi ton sport</h2>
+              <div class="switch-field">
+                <input
+                  type="checkbox"
+                  id="check-one"
+                  name="ch[]"
+                  value="football"
+                />
+                <label for="check-one">football</label>
+                <input
+                  type="checkbox"
+                  id="check-two"
+                  name="ch[]"
+                  value="natation"
+            
+                />
+                <label for="check-two">Natation</label>
+                <input
+                  type="checkbox"
+                  id="check-three"
+                  name="ch[]"
+                  value="judo"
+                  
+                />
+                <label for="check-three">Judo</label>
+                <input
+                  type="checkbox"
+                  id="check-four"
+                  name="ch[]"
+                  value="escrime"
+                  
+                />
+                <label for="check-four">Escrime</label>
+              </div>
+            
+
+            <div class="input__group">
+              <label class="field">
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password123$#%&..."
+                  id="signUpPassword"
+                />
+              </label>
+  
+              <span class="showHide__Icon"><i class="icon-hide">&#x1F441</i></span>
+              <small class="input__error_message"></small>
+            </div>
+
+            <div class="input__group confirm__group">
+              <label class="field">
+                <input
+                  type="password"
+                  name="confirm_password"
+                  placeholder="Confirm Password"
+                  id="signUpConfirmPassword"
+                />
+              </label>
+  
+              <span class="showHide__Icon"><i class="icon-hide">&#x1F441</i></span>
+              <small class="input__error_message"></small>
+            </div>
+
+            <button name="signup"  type="submit" class="submit-button" id="signUpSubmitBtn">sign up</button>
+          </form>
+          <!-- End Form -->
+        </div>
+        <div class="aside__area" id="aside_Area">
+         
+
+         <div class="login__aside-info">
+
+         <div class="sign-up__aside-info">
+           <a id="retour" href="index.php"> Retour </a>
+           <h4>Deja un compte</h4>
+           <p>cliquez en dessous et entrer vos identifiants</p>
+           <a id="aside_logbutton" href="log.html">log in</a>
+         </div>
+       </div>
+        </div> 
+     </section>
+
+     <footer>
+		
+      <div class="colonnes">
+      <div class="colonne">
+        <h3>Relations clients</h3>
+        <p>Relations Investisseurs</p>
+        <p>Modes de lecture</p>
+        <p>Mentions légales</p>
+      </div>
+      <div class="colonne">
+        <h3>FAQ</h3>
+        <p>Recrutement</p>
+        <p>Conditions d'utilisation</p>
+        <p><a href="mailto:fs@gmail.com">Nous contacter</a></p>
+      </div>
+      <div  class="colonne">
+        <h3>Compte</h3>
+        <p><a href="sign.html">S'enregistrer</a></p>
+        <p><a href="log.html">Se connecter</a></p>
+        <p><a href="mailto:fs@gmail.com">Nous contacter</a></p>
+      </div>
+      </div>
+  
+  <div class="footer-bottom">
+    <div class="social">
+      <ul class="socials">
+        <li><a href="#"><i><img src="./images/facebook.png" alt="1"></i></a></li>
+        <li><a href="#"><i><img src="./images/twitter.png" alt="2"></i></a></li>
+        <li><a href="#"><i><img src="./images/linkedin.png" alt="1"></i></a></li>
+        <li><a href="#"><i><img src="./images/reddit.png" alt="1"></i></a></li>
+      </ul>
+    </div>
+    <p>copyright &copy; <a href="#">ChamiBouhali</a> </p>
+  </div>
+</footer>
+<script src="sign.js"></script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="log.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>log in</title>
+  </head>
+  <body>
+    <section class="sign-login">
+      <!-- Wrapper Area -->
+      <div class="wrapper__area" id="wrapper_Area">
+        <!-- Forms Area -->
+        <div class="forms__area">
+          <form  action="" method="post" class="login__form" id="loginForm">
+            <h1 class="form__title">Bonjour!</h1>
+
+            <!-- inputs Groups -->
+            <div class="input__group">
+              <label class="field">
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="Username"
+                  id="loginUsername"
+                />
+              </label>
+              
+              <small class="input__error_message"></small>
+            </div>
+
+            <div class="input__group">
+              <label class="field">
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  id="loginPassword"
+                />
+              </label>
+            
+              <span class="showHide__Icon"><i class="icon-hide">&#x1F441</i></span>
+              <small class="input__error_message"></small>
+            </div>
+
+            <div class="form__actions">
+              <label for="checkboxInput" class="remeber_me">
+                <input type="checkbox" id="checkboxInput" />
+                <span class="checkmark"></span>
+                <span>se souvenir de moi</span>
+              </label>
+
+              <div class="forgot_password">mot de passe oublie?</div>
+            </div>
+
+            <button name="login" type="submit" class="submit-button" id="loginSubmitBtn">
+              Log in
+            </button>
+          </form>
+
+        </div>
+
+        <div class="aside__area" id="aside_Area">
+         
+
+          <div class="login__aside-info">
+            <a id="retour" href="index.php"> Retour </a>
+            <h4>Nouveau?</h4>
+            <p>Creer votre compte en cliquant en dessous</p>
+            <a id="aside_signbutton" href="sign.html">sign up</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+		
+      <div class="colonnes">
+      <div class="colonne">
+        <h3>Relations clients</h3>
+        <p>Relations Investisseurs</p>
+        <p>Modes de lecture</p>
+        <p>Mentions légales</p>
+      </div>
+      <div class="colonne">
+        <h3>FAQ</h3>
+        <p>Recrutement</p>
+        <p>Conditions d'utilisation</p>
+        <p><a href="mailto:fs@gmail.com">Nous contacter</a></p>
+      </div>
+      <div  class="colonne">
+        <h3>Compte</h3>
+        <p><a href="sign.html">S'enregistrer</a></p>
+        <p><a href="log.html">Se connecter</a></p>
+        <p><a href="mailto:fs@gmail.com">Nous contacter</a></p>
+      </div>
+      </div>
+  
+  <div class="footer-bottom">
+    <div class="social">
+      <ul class="socials">
+        <li><a href="#"><i><img src="./images/facebook.png" alt="1"></i></a></li>
+        <li><a href="#"><i><img src="./images/twitter.png" alt="2"></i></a></li>
+        <li><a href="#"><i><img src="./images/linkedin.png" alt="1"></i></a></li>
+        <li><a href="#"><i><img src="./images/reddit.png" alt="1"></i></a></li>
+      </ul>
+    </div>
+    <p>copyright &copy; <a href="#">ChamiBouhali</a> </p>
+  </div>
+</footer>
+
+    <script src="log.js"></script>
+  </body>
+</html>
